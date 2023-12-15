@@ -5,5 +5,6 @@ CMClass >> newCormasInstance [
 
 	| instance |
 	instance := CMInstance new.
-	instance cormasClass: self 
+	instance cormasClass: self.
+	^instance
 ]
